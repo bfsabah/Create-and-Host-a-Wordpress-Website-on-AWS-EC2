@@ -12,6 +12,9 @@
 
 6- We will install LAMP Stack in Ubuntu: L: Linux A: Apache M: MySQL P: PHP
 
+![image](https://user-images.githubusercontent.com/113843658/205323487-b6421a2f-cf7b-4298-95ba-fcb1edff43a9.png)
+
+
 7- We update all packages : && sudo apt update && apt upgrade -y
 
 8- Install Apache and basic packages: && sudo apt install apache2 wget nano -y
@@ -70,6 +73,9 @@
                                         
 15- Fill the information about your database.
 
+![image](https://user-images.githubusercontent.com/113843658/205323307-0695d44c-30dc-45f9-9de7-73066fd26e39.png)
+
+
 16- In the next screen copy php code and paste it : && cd /var/www/html/wordpress
 
                                                     && sudo vim wp-config.php {paste your code in this file and save it}
@@ -78,43 +84,4 @@
 
 17- Your last step for installation. Just fill your WordPress configuration.
 
-
-
-
-                                                
-
-
-                                                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 6- We connect to EC2 now we install Apache webserver: && sudo apt install apache2
-
-7- For crosscheck: http://{yourpublicIP} Apache page welcomes you.
-
-8- We install PHP : && sudo apt update
-                    
-                    && sudo apt install php
-                    
-                    && php --version #For checking
-                    
-                    && sudo apt install php-mysql php-curl php-xml php-mbstring php-imagick php-zip php-gd # WordPress module for PHP
-
-9- We install MySQL: && sudo apt install mysql-server
-
-10- sudo mysql -u root
-ALTER USER 'root'@localhost INDETIFIED WITH mysql_native_password BY 'Testpassword@123' ; -->
+![image](https://user-images.githubusercontent.com/113843658/205323355-4f1be2d9-40f4-4ffe-9a3f-7ade69abc7d4.png)
